@@ -1,0 +1,16 @@
+apiVersion: v1
+data:
+  base: epinio-stage-scripts
+  builder: heroku/builder:22
+  env: 'CNB_PLATFORM_API: "0.12"'
+  groupID: "1000"
+  userID: "1000"
+kind: ConfigMap
+metadata:
+  annotations:
+    meta.helm.sh/release-name: epinio
+    meta.helm.sh/release-namespace: epinio
+  labels:
+    app.kubernetes.io/component: epinio-staging
+  name: epinio-stage-scripts-heroku-22
+  namespace: epinio
