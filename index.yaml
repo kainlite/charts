@@ -5,8 +5,8 @@ entries:
     appVersion: 1.0.260-beta.96
     created: "2024-06-26T08:22:51.433368663Z"
     dependencies:
-    - condition: flanksourceui.enabled
-      name: flanksourceui
+    - condition: flanksource-ui.enabled
+      name: flanksource-ui
       repository: https://kainlite.github.io/charts/
       version: 1.0.651
     description: Kubernetes native, multi-tenant synthetic monitoring system
