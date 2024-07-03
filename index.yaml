@@ -7,7 +7,7 @@ entries:
     dependencies:
     - condition: flanksourceui.enabled
       name: flanksourceui
-      repository: https://github.com/kainlite/charts/raw/index.yaml
+      repository: https://kainlite.github.io/charts/
       version: 1.0.651
     description: Kubernetes native, multi-tenant synthetic monitoring system
     digest: f0c7054cf87c07258c7e833093e7c66f28599de86bd33e03db0d23e1cb7291f9
@@ -29,7 +29,7 @@ entries:
     name: flanksourceui
     type: application
     urls:
-    - https://github.com/kainlite/charts/raw/master/flanksource-ui-1.0.691.tgz
+    - https://github.com/kainlite/charts/raw/master/flanksourceui-0.1.0.tgz
     version: 0.1.0
   flanksource-ui:
   - apiVersion: v2
@@ -40,7 +40,7 @@ entries:
     name: flanksource-ui
     type: application
     urls:
-    - https://github.com/kainlite/charts/raw/master/flanksource-ui-1.0.691.tgz
+    - https://github.com/kainlite/charts/raw/master/flanksource-ui-0.1.0.tgz
     version: 0.1.0
   epinio-preview:
   - apiVersion: v2
